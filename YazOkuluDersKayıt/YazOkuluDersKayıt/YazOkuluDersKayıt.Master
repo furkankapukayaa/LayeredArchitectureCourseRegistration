@@ -1,0 +1,53 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="YazOkuluDersKayıt.master.cs" Inherits="YazOkuluDersKayıt.YazOkuluDersKayıt" %>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Ders Kayıt Sistemi</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <!-- Brand/logo -->
+        <a class="navbar-brand" href="Default.aspx">Ders Kayıt Sistemi</a>
+
+        <!-- Links -->
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="Kayit.aspx">Öğrenci Kayıt</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="OgretmenKayit.aspx">Öğretmen Kayıt</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Dersler.aspx">Ders Talep</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="OgrenciListesi.aspx">Öğrenciler</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Ogretmenler.aspx">Öğretmenler</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Kontenjanlar.aspx">Kontenjanlar</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Yardim.aspx">Yardım</a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="p-5 container-fluid">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server"></asp:ContentPlaceHolder>
+
+
+    </div>
+
+</body>
+</html>
