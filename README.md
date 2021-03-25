@@ -5,3 +5,4 @@ Proje katmanlı mimari olarak tasarlanmıştır.<br>
 Projede EntityLayer, DataAccessLayer ve BusinessLogicLayer katmanları bulunmaktadır.<br>
 Projede C#, Asp.NET, HTML, CSS ve Boostrap teknolojileri kullanılmıştır.<br>
 Microsoft SQL Server bağlantılıdır.<br>
+<a href="https://github.com/furkankapukayaa/katmanli-mimari-ders-kayit/blob/main/dbYazOkulu.sql">SQL kodları için tıklayınız.</a>
