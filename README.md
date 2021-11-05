@@ -1,8 +1,7 @@
-# Katmanlı Mimari Ders Kayıt Projesi
-        
-Bu proje <strong>Murat Yücedağ</strong>'ın <a href="https://www.youtube.com/playlist?list=PLKnjBHu2xXNMSPomGvyjG19YGXIdgdTka" target="_blank">30 Derste Asp.Net Bootstrap ile Katmanlı Mimaride Yaz Okulu Kayıt Projesi</a></strong>'nden esinlenerek yapılmıştır.<br>
-Proje katmanlı mimari olarak tasarlanmıştır.<br>
-Projede EntityLayer, DataAccessLayer ve BusinessLogicLayer katmanları bulunmaktadır.<br>
-Projede C#, Asp.NET, HTML, CSS ve Bootstrap teknolojileri kullanılmıştır.<br>
-Microsoft SQL Server bağlantılıdır.<br>
-<a href="https://github.com/furkankapukayaa/katmanli-mimari-ders-kayit/blob/main/dbYazOkulu.sql">SQL kodları için tıklayınız.</a>
+# Layered Architecture Course Registration Project
+This project was inspired by Murat Yücedağ's Summer School Registration Project in Layered Architecture with Asp.Net Bootstrap in 30 Lessons.<br>
+<a href="https://www.youtube.com/playlist?list=PLKnjBHu2xXNMSPomGvyjG19YGXIdgdTka" target="_blank">Lesson Link</a><br>
+There are EntityLayer, DataAccessLayer and BusinessLogicLayer layers in the project.<br>
+C#, Asp.NET, HTML, CSS and Bootstrap technologies were used in the project.<br>
+It is connected to Microsoft SQL Server.<br>
+<a href="https://github.com/furkankapukayaa/LayeredArchitectureCourseRegistration/blob/main/dbYazOkulu.sql">Click for SQL codes.</a>
